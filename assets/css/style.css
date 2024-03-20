@@ -97,14 +97,9 @@ h6 {
   z-index: 997;
   height: 90px;
 }
-
-#header.header-transparent {
-  background: transparent;
-}
-
 #header.header-scrolled {
   background: #fff;
-  height: 70px;
+  height: 90px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -486,6 +481,7 @@ section {
   font-weight: 700;
   position: relative;
   font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
 }
 
 .section-header p {
@@ -506,13 +502,13 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f5f8fd;
+  background: white;
 }
 
 /* About Us Section
 --------------------------------*/
 #about {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #about .about-content {
@@ -590,7 +586,8 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 60px 0 40px 0;
+  padding: 30px 0 40px 0;
+  background: #f5f8fd;
 }
 
 #services .box {
@@ -641,7 +638,7 @@ section {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* Why Us Section
@@ -747,6 +744,10 @@ section {
 
 /* Features Section
 --------------------------------*/
+#contoh{
+    background: #f5f8fd;
+}
+
 #features {
   padding: 80px 0;
 }
@@ -1041,10 +1042,6 @@ section {
 
 /* Team Section
 --------------------------------*/
-#team {
-  padding: 60px 0;
-}
-
 #team .member {
   text-align: center;
   margin-bottom: 20px;
